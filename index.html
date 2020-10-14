@@ -4,7 +4,13 @@
   <head>
     <title>feed</title>
     <link href="styling.css" rel="stylesheet">
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"  href="css/themes/default/jquery.mobile-1.1.0.css" />
+    <link rel="stylesheet" href="docs/_assets/css/jqm-docs.css" />
+    <script src="js/jquery.js"></script>
+    <script src="docs/_assets/js/jqm-docs.js"></script>
+    <script src="js/jquery.mobile-1.1.0.js"></script>
   </head>
   <body>
 
@@ -16,38 +22,29 @@
 
         </div>
         <div class="main">
-          <div class="responsive">
-            <div class="gallery">
-              <a target="_blank" href="image.jpg">
-                 <img src="image.jpg" >
-              </a>
-              <div class="desc">
-                  <h3> Viral image shows scale of melting ice in greenland</h3>
-                  <p>A photo showing sled dogs through water ankle-deep on top of a melting ice
-                     sheet in Greenland has gone viral. The Picture taken by Steffen Olsen from
-                     the center of Ocean and Ice at the Danish Meteorological Institute shows the
-                     scale of melting ice in Greenland Olsen said the ice sheet beneath the water was 1,2 metres thick.</p>
-              </div>
-             </div>
-           </div>
-        </div>
-    <div class="main">
-    <div class="responsive">
-      <div class="gallery">
-        <a target="_blank" href="image1.jpg">
-    <img src="image1.jpg" >
-  </a>
-  </div>
- </div>
-<div class="clearfix"></div>
-  <h3> One Direction fans trend #ProudofLouis</h3>
-  <div class="desc">
-   <p>One Direction fans are proud of band member Louis Tomlinson.
-      The singer’s album title track, Walls, now has 10M views on
-      YouTube. After achieving this major feat, One Direction fans
-      were trending the #ProudofLouis worldwide.</p>
-  </div>
-</div>
-    <script src="script.js"></script>
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="image.jpg">
+        <img src="image.jpg" >
+      </a>
+      <div class="desc">
+        <h3> Viral image shows scale of melting ice in greenland</h3>
+       <p>A photo showing sled dogs through water ankle-deep on top of a melting ice
+           sheet in Greenland has gone viral. The Picture taken by Steffen Olsen from
+           the center of Ocean and Ice at the Danish Meteorological Institute shows the
+          scale of melting ice in Greenland Olsen said the ice sheet beneath the water was 1,2 metres thick.</p>
+      </div>
+      </div>
+     </div>
+   </div>
+   <script type="text/javascript">
+$('body').live('swipeleft swiperight',function(event){
+   if (event.type == "swiperight") {
+      jQuery.mobile.changePage("index2.html",{transition:'slide'});
+   }
+   
+   event.preventDefault();
+});
+           </script>
   </body>
 </html>
