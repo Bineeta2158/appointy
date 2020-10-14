@@ -2,13 +2,22 @@
    margin: 0;
    padding: 0;
    font-family: Century Gothic;
+   box-sizing: border-box;
+}
+
+
+
+div.gallery {
+  border: 1px solid #fff;
+}
+
+div.gallery:hover {
+  border: solid #fff;
 }
 
 img
 { border: 1px solid #ddd;
   border-radius: 4px;
   width: 100%;
-
-
-
+  padding:15px 15px;
 }
