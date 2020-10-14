@@ -5,19 +5,46 @@
    box-sizing: border-box;
 }
 
-
-
 div.gallery {
-  border: 1px solid #fff;
+  border: 1px solid #ccc;
 }
 
 div.gallery:hover {
-  border: solid #fff;
+  border: 1px solid #777;
 }
+
+
+
+div.p {
+  padding: 15px;
+  text-align: center;
+}
+
 
 img
 { border: 1px solid #ddd;
   border-radius: 4px;
   width: 100%;
   padding:15px 15px;
+}
+
+.main {
+  padding: 0 6px;
+  float: right;
+  margin-top: 50px;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+@media only screen and (max-width: 700px) {
+  .main {
+    width: 50%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .main {
+    width: 50%;
+  }
 }
