@@ -42,10 +42,7 @@ img
 
 
 
-/* Slider */
-.slick-slide {
-    margin: 20px 20px;
-}
+
 .slick-slide img {
     width: 100%;
 }
@@ -159,4 +156,8 @@ img
    width:20px;
    height:20px;
 }
+.im{ width:2px;
+     height:2px;
+     
+   }
 
