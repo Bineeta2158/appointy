@@ -168,7 +168,8 @@ li a {
   width: auto
   height: 50px;
 }
-.im{ width:0.5px;
-     height:0.5px;
+.im{ width:0.52px;
+     height:0.52px;
+    padding:10px;
     
    }
