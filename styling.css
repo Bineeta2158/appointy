@@ -57,7 +57,7 @@ li a {
 }
 /* Slider */
 .slick-slide {
-    margin: 0px 20px;
+    margin: 20px 20px;
 }
 .slick-slide img {
     width: 100%;
