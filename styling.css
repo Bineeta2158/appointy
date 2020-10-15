@@ -1,6 +1,6 @@
 *{
-   margin: 0;
-   padding: 0;
+   margin: 0px;
+   padding: 0px;
    font-family: Century Gothic;
    box-sizing: border-box;
 }
@@ -26,7 +26,7 @@ img
 
 
 .main {
-
+  margin: 10px 10px;
   float: right;
   position:relative;
 
@@ -57,7 +57,7 @@ li a {
 }
 /* Slider */
 .slick-slide {
-    margin: 20px 20px;
+    margin: 0px 0px;
 }
 .slick-slide img {
     width: 100%;
