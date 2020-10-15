@@ -166,5 +166,6 @@ li a {
 .newsNav .row {
   column-count: 3;
   width: auto;
-  height: 80px;
+  margin-botton: 10px;
+   
 }
