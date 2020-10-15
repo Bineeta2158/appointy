@@ -41,11 +41,6 @@ img
 
 
 
-
-/* Slider */
-.slick-slide {
-    margin: 0px 0px;
-}
 .slick-slide img {
     width: 100%;
 }
@@ -154,8 +149,8 @@ img
   column-count: 3;
   width: auto
 }
-.im{ width:20px;
-     height:20px;
+.im{ width:0.52px;
+     height:0.52px;
     
    }
 
