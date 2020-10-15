@@ -163,9 +163,8 @@ li a {
 .slick-arrow img:hover {
     opacity: 1.0;
 }
-.newsNav .row {
+.row {
   column-count: 3;
-  width: auto;
-  margin-botton: 10px;
-   
+  width: auto
+  height: 80px;
 }
