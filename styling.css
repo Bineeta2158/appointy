@@ -1,6 +1,6 @@
 *{
-   margin: 0px;
-   padding: 0px;
+   margin: 0;
+   padding: 0;
    font-family: Century Gothic;
    box-sizing: border-box;
 }
@@ -26,7 +26,7 @@ img
 
 
 .main {
-  
+
   float: right;
   position:relative;
 
@@ -38,26 +38,13 @@ img
     margin: 6px 0;
   }
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
 
-li {
-  float: left;
-}
 
-li a {
-  display: inline-block;
-  padding: 5px 50px;
-  position: relative;
-  font-size: 30px;
-}
+
+
 /* Slider */
 .slick-slide {
-    margin: 0px 0px;
+    margin: 20px 20px;
 }
 .slick-slide img {
     width: 100%;
@@ -166,9 +153,9 @@ li a {
 .row {
   column-count: 3;
   width: auto
-  height: 50px;
 }
-.im{ width:0.52px;
-     height:0.52px;
+.im{ width:50px;
+     height:50px;
     
    }
+
