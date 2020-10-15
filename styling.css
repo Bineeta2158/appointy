@@ -153,15 +153,12 @@ img
 }
 
 .imt{
-   width:20px;
-   height:20px;
+   width:80px;
+   height:80px;
 }
-.row {
-  column-count: 3;
-  width: auto
-}
-.im{ width:50px;
-     height:50px;
+
+.im{ width:80px;
+     height:80px;
 
    }
 
